@@ -1,0 +1,161 @@
+
+body {
+  padding-top: 56px;
+  background-color: rgb(248, 249, 250);
+}
+
+.carousel-item a {
+  display: block;
+  width: 60%;
+  height: 60%;
+}
+
+div[class*="md-form"] {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#nav {
+  padding: 0px;
+}
+
+#logo {
+  height: 5rem;
+}
+
+#nav-container {
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+.nav-link {
+  font-size: larger;
+}
+
+#menu-navbar>div {
+  margin-left: 3rem;
+  width: 100%;
+}
+
+#menu-navbar > div > ul > li > a {
+  margin-right: 2rem !important;
+}
+
+/* color logo rgb(54, 83, 71) */
+
+
+
+/* CSS HEADER OVERLAY */
+
+header {
+  position: relative;
+  background-color: black;
+  height: 95vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(54, 83, 71);
+  opacity: 0.6;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+/* FIN CSS HEADER OVERLAY */
+
+/* CSS SEARCHBAR */
+
+.search-button {
+  background-color: rgb(54, 83, 71) ;
+  border-color: rgb(54, 83, 71) ;
+  color: white;
+  cursor: pointer;
+}
+
+
+.search-button:hover {
+  background-color: white ;
+  border-color: white ;
+  color: rgb(54, 83, 71);
+}
+
+.btn {
+  background-color: rgb(54, 83, 71) !important;
+  border : 0px;
+  border-radius: 0px;
+}
+
+.card-footer {
+  background-color: rgb(54, 83, 71) !important;
+  border : 0px;
+  text-align: center;
+}
+
+
+/* Fin CSS SEARCHBAR */
+
+/*Social Media Icons*/
+
+.social-wrapper {
+  text-align: center;
+  padding-right: 2rem;
+}
+
+.social-wrapper ul li {
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+.twitter-icon, .facebook-icon, .instagram-icon, .linkedin-icon, .googleplus-icon, .youtube-icon, .foursquare-icon {
+  margin-top: .625em;
+  width: 40px;
+  height: 40px;
+  opacity: .6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+  border-radius: 25px;
+}
+
+.twitter-icon:hover, .facebook-icon:hover, .instagram-icon:hover, .linkedin-icon:hover, .googleplus-icon:hover, .youtube-icon:hover, .foursquare-icon:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  /* For IE8 and earlier */
+}
+
+
+/* Fin Social Media Icons */ 
